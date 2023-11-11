@@ -86,4 +86,11 @@
             <li>Programming Languages: HTML, CSS, JavaScript</li>
             <li>Web Development: Front-end and Back-end</li>
             <li>Other Skills: Communication, Teamwork, Problem-solving</li>
-        </
+        </ul>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my CV. Connect with me for more information.</p>
+    </footer>
+</body>
+</html>
