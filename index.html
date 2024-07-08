@@ -1,91 +1,99 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujans Shrestha - Claim Analyst</title>
+    <title>Sujans Shrestha</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333333;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
-        header {
-            background-color: #000000;
+        header, footer {
+            background-color: #005f73;
             color: #ffffff;
-            padding: 20px;
             text-align: center;
+            padding: 20px 0;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #ff0000;
-        }
-        nav a {
-            color: #ffffff;
-            padding: 15px 20px;
+        .btn {
+            background-color: #0a9396;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
             text-decoration: none;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            background-color: #333333;
-        }
-        section {
-            padding: 20px;
+            display: inline-block;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
         .container {
-            max-width: 1200px;
-            margin: auto;
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            background-color: #fff;
             padding: 20px;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
         }
-        h2 {
-            color: #ff0000;
+        .main h2 {
+            color: #005f73;
+            border-bottom: 2px solid #0a9396;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
-        .footer {
-            background-color: #000000;
-            color: #ffffff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
+        .main p, .main li {
+            line-height: 1.6;
+        }
+        footer {
+            position: relative;
+            margin-top: 20px;
+            clear: both;
             width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>Sujans Shrestha</h1>
-        <p>Motivated Claim Analyst specializing in personal, property, and casualty loss and damages.</p>
+        <p>Business Analyst</p>
+        <a href="https://www.linkedin.com/in/sujans-shrestha/" target="_blank" class="btn">LinkedIn</a>
+        <a href="https://www.facebook.com/SujansStha03" target="_blank" class="btn">Facebook</a>
+        <a href="https://www.instagram.com/sujans_stha/" target="_blank" class="btn">Instagram</a>
     </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#experiences">Experiences</a>
-        <a href="#contact">Contact</a>
-    </nav>
+
     <div class="container">
-        <section id="about">
+        <div class="main">
             <h2>About Me</h2>
-            <p>I am a motivated Claim Analyst specializing in personal, property, and casualty loss and damages. I negotiate peaceful resolutions of all claims with an emphasis on fairness and thoroughness. I am trustworthy and dependable.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Coming Soon</p>
-        </section>
-        <section id="experiences">
-            <h2>Experiences</h2>
-            <p>Coming Soon</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: sujans.shrestha@example.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/sujans-shrestha" target="_blank">linkedin.com/in/sujans-shrestha</a></p>
-        </section>
+            <p>I am a Claims Analyst with over five years of experience, currently pursuing an MBA with a focus on Business Analytics. My expertise in data analysis, claim negotiation, and a passion for solving real-world business problems through analytical tools positions me uniquely in the business analysis field.</p>
+
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Packaging Associate, HB Kaysons (2023–present, Surrey, Canada)</strong>: Focused on quality standards, inventory management, and maintenance for packaging machinery.</li>
+                <li><strong>Claim Analyst, Salico Insurance Company (2022–2023, Kathmandu, Nepal)</strong>: Specialized in investigating claims, managing costs, and negotiating settlements.</li>
+                <li><strong>Branding Assistant, Sagarmatha Insurance Company (2021–2022, Kathmandu, Nepal)</strong>: Developed market research strategies and promoted product campaigns for brand awareness.</li>
+                <li><strong>Customer Service, Sagarmatha Insurance Company (2020–2021, Kathmandu, Nepal)</strong>: Maintained customer satisfaction through effective communication and problem resolution.</li>
+            </ul>
+
+            <h2>Education</h2>
+            <p>MBA, University of Canada West (2023–present, Vancouver, Canada)</p>
+            <p>Bachelor's in Business Studies, Everest Innovative College (2018–2021, Kathmandu, Nepal)</p>
+            <p>Higher Secondary School, Everest Higher Secondary School (2015–2017, Kathmandu, Nepal)</p>
+            <p>Secondary School, Ikeda International School (2015, Kathmandu, Nepal)</p>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Microsoft Office 365</li>
+                <li>Adobe Photoshop & Illustrator</li>
+                <li>Tableau</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
     </div>
-    <footer class="footer">
-        <p>&copy; 2024 Sujans Shrestha. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+
+    <footer>
+        <p>Contact: <a href="mailto:your.email@example.com"
